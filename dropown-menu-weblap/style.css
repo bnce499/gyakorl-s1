@@ -1,0 +1,85 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false;*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-container {
+background: url(banner.jpg);
+width: 100%;
+background-size: 100%;
+position: relative;
+height: 30vw;
+}
+.company-intro {
+    position: absolute;
+    right: 10vw;
+    top: 50px;
+    left: 350px;
+    width: 50%;
+    background-color: rgba(40, 70, 66, 0.4);
+    padding: 20px 20px 20px 20px;
+}
+.h1 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+}
+.header {
+  width: 70%;
+  font-weight: 300;
+}
+.menu-item:hover {
+    
+    background-color: #4cc3c3;
+    padding: 5px 5px 5px 5px;
+    
+}
+.menu-item {
+    border-left: 5px solid rgba(129, 225, 255, 0.63);
+    background-color: rgba(63, 117, 134, 0.3);
+    transition: all 0.2s ease-in-out;
+    padding: 5px 5px 5px 5px;
+    width: 120px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.company-image {
+    float: right;
+}
+footer {
+    text-align: center;
+    background-color: lightblue;
+    line-height: 100px;
+    height: 100px;
+    width: 100%;
+}
+.közép
+{
+    height: 550px;
+    width: 500px;
+}
+.lead {
+    font-weight: 800;
+    font-size: 16px;
+    width: 600px;
+}
+.h1.1 {
+    margin-top:0;
+}
+.h1.2 {
+    font-size:50px;
+}
+
+.p1
+{
+    font-size: 40px;
+}
+
+.p2
+{
+    line-height:2;
+}
